@@ -30,4 +30,4 @@ javac <SOURCE FILE>
 Running executables (or bytecode) is the same as how you would normally do it. (:
 
 ## Misc
-* Sometimes I would use `scanf/printf` and other times I would use `cin/cout`. This is depending on if I want to use partial Regex.
+* Sometimes I would use `scanf/printf` and other times I would use `cin/cout`. This is depending on if I want to use partial Regex or how I want to deal with `\n` characters.
