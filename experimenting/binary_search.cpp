@@ -19,4 +19,6 @@ int main() {
     std::cout << (xs.end() == u33) << std::endl;
     std::cout << (xs.end() != u20) << std::endl;
     std::cout << (xs.end() == u30) << std::endl;
+    std::cout << (std::binary_search(xs.cbegin(), xs.cend(), 20) == 1) << std::endl;
+    std::cout << (std::binary_search(xs.cbegin(), xs.cend(), 33) == 0) << std::endl;
 }
