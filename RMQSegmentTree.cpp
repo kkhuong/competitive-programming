@@ -1,0 +1,6 @@
+#ifndef RMQ_SEGMENTTREE_H
+#define RMQ_SEGMENTTREE_H
+
+
+
+#endif  // RMQ_SEGMENTTREE_H
