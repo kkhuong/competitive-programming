@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 #include <vector>
 #include <string>
 #include <sstream>
@@ -47,6 +48,8 @@ vector<vii> transpose(const vector<vii> &g, int m, int n) {
             gt[p.first].emplace_back(r, p.second);
     }
 
+    for (auto &lsts : gt)
+        std::sort(lsts.begin(), lsts.end());
     return gt;
 }
 
