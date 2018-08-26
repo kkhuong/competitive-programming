@@ -43,7 +43,7 @@ private:
 		return st[p] = minsidx(p1, p2);
 	}
 
-private:
+public:
 	SegmentTreeRMQ(const vector<int> &_A) {
 		A = _A;
 		n = (int)A.size();
